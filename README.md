@@ -1,10 +1,17 @@
 # Content
-* [Get Started]()
-* [Install]()
-* [Setup the bot]()
-  - [Change prefix]()
-  - [Setting parameters]()
-* [Running the bot]()
+* [Get Started](https://github.com/astrxnomo/discord-ticket-bot-py#get-started)
+* [Install](https://github.com/astrxnomo/discord-ticket-bot-py#install-)
+* [Setup the bot](https://github.com/astrxnomo/discord-ticket-bot-py#setup-the-bot-)
+  - [Change prefix](https://github.com/astrxnomo/discord-ticket-bot-py#change-prefix)
+  - [Setting parameters](https://github.com/astrxnomo/discord-ticket-bot-py#setting-parameters-)
+* [Running the bot](https://github.com/astrxnomo/discord-ticket-bot-py#running-the-bot)
+  - [Ticket channel](https://github.com/astrxnomo/discord-ticket-bot-py#ticket-channel)
+  - [Ticket command](https://github.com/astrxnomo/discord-ticket-bot-py#ticket-command)
+  - [Testing the bot](https://github.com/astrxnomo/discord-ticket-bot-py#testing-the-bot)
+    - [Select function](https://github.com/astrxnomo/discord-ticket-bot-py#select-function)
+    - [Inside the ticket](https://github.com/astrxnomo/discord-ticket-bot-py#inside-the-ticket)
+      - [Call staff function](https://github.com/astrxnomo/discord-ticket-bot-py#call-staff-function)
+      - [Close ticket function](https://github.com/astrxnomo/discord-ticket-bot-py#close-ticket-function)
 * [Customizing the bot]()
 
 
