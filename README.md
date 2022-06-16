@@ -6,6 +6,6 @@ We suggest you be familiar with discord.py and python. This is a Ticket Bot guid
 ##Install
 First, we need to install the library
 
-´´´
+```
 pip install --upgrade discord-components
-´´´
+```
