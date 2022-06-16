@@ -4,14 +4,13 @@ from discord.ext import commands
 from discord_components import Button, Select, SelectOption, ComponentsBot, interaction
 from discord_components.component import ButtonStyle
 
-
 #Bot prefix
-bot = ComponentsBot("tb!", help_command=None)
+bot = ComponentsBot('tb!', help_command=None)
 
-embed_color = 0xfcd005
-id_category = 987014930043633694
-id_channel_ticket_logs = 987015105743032330
-id_staff_role = 987017871102197790
+id_category = #put here the id of the category where the bot will create the ticket channels
+id_channel_ticket_logs = #put here the id of the channel where the bot will create the ticket logs
+id_staff_role = #put here the id of the staff role
+embed_color = 0xfcd005 #put here a hex color that will carry all the embeds sent by the bot
 
 
 @bot.event
@@ -28,7 +27,6 @@ async def on_ready():
 
     ))
     print('Ready to support ✅')
-
 
 @bot.command()
 @commands.has_permissions(administrator=True)
