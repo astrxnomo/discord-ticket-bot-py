@@ -23,7 +23,7 @@ pip install --upgrade discord-components
 2. We need to create the bot in Discord Developer Portal. If you have no idea how to do it follow this [documentation](https://discord.com/developers/docs/getting-started#creating-an-app).
 3. Invite the bot to your server.
 
-# Setup the bot*
+# Setup the bot *
 
 ## Change prefix 
 
