@@ -23,7 +23,7 @@ pip install --upgrade discord-components
 2. We need to create the bot in Discord Developer Portal. If you have no idea how to do it follow this [documentation](https://discord.com/developers/docs/getting-started#creating-an-app).
 3. Invite the bot to your server.
 
-# Setup the bot
+# Setup the bot*
 
 ## Change prefix 
 
@@ -56,4 +56,15 @@ bot.run(' ')
 
 Up to this part of the guide the bot should be working, with the default values of course, but if up to this part your bot is working it means that you have completed the previous steps well.
 
-## 
+## Create a ticket channel
+
+Now we will create the channel where our message will go to create tickets
+
+![image](https://user-images.githubusercontent.com/75272665/174153373-7f1113f5-c21b-4592-98f6-99478fdd7307.png)
+
+## Ticket command
+
+In the ticket channel we are going to execute the command `tb!ticket` (remember that `tb!` is the default prefix, if you changed it you put its respective prefix) and the bot will reply this:
+
+![image](https://user-images.githubusercontent.com/75272665/174154120-df75f170-b378-4324-857a-53050a2c1884.png)
+
