@@ -91,7 +91,7 @@ When one of the options is selected, the bot will send a confirmation message wh
 #### Close ticket function
 ![image](https://user-images.githubusercontent.com/75272665/174157206-4b69ef02-e0ac-4ab7-b69d-ae26139fd37c.png)
 
-###Ticket log
+### Ticket log
 
 When the ticket has been closed, a message will be automatically sent to the ticket log channel with basic ticket information.
 
