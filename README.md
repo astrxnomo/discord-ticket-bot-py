@@ -13,7 +13,7 @@
       - [Call staff function](https://github.com/astrxnomo/discord-ticket-bot-py#call-staff-function)
       - [Close ticket function](https://github.com/astrxnomo/discord-ticket-bot-py#close-ticket-function)
     - [Ticket logs](https://github.com/astrxnomo/discord-ticket-bot-py#ticket-logs)
-* [Customizing the bot]()
+* [Customizing the bot](https://github.com/astrxnomo/discord-ticket-bot-py#customizing-the-bot)
 
 
 # Get Started
