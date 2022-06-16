@@ -1,14 +1,11 @@
 # Content
-* Get Started]()
-* Install]()
-* Setup the bot]()
-  - Change prefix]()
-  - Setting parameters]()
-* Running the bot
-
-
-
-
+* [Get Started]()
+* [Install]()
+* [Setup the bot]()
+  - [Change prefix]()
+  - [Setting parameters]()
+* [Running the bot]()
+* [Customizing the bot]()
 
 
 # Get Started
@@ -54,3 +51,9 @@ We must copy the bot token from the Discord developer portal and paste it inside
 bot.run(' ')
 ```
 > [Go to code]() 
+
+# Running the bot
+
+Up to this part of the guide the bot should be working, with the default values of course, but if up to this part your bot is working it means that you have completed the previous steps well.
+
+## 
