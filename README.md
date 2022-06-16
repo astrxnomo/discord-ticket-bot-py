@@ -12,6 +12,7 @@
     - [Inside the ticket](https://github.com/astrxnomo/discord-ticket-bot-py#inside-the-ticket)
       - [Call staff function](https://github.com/astrxnomo/discord-ticket-bot-py#call-staff-function)
       - [Close ticket function](https://github.com/astrxnomo/discord-ticket-bot-py#close-ticket-function)
+    - [Ticket logs](https://github.com/astrxnomo/discord-ticket-bot-py#ticket-logs)
 * [Customizing the bot]()
 
 
@@ -63,7 +64,7 @@ bot.run(' ')
 
 Up to this part of the guide the bot should be working, with the default values of course, but if up to this part your bot is working it means that you have completed the previous steps well.
 
-## Create a ticket channel
+## Ticket channel
 
 Now we will create the channel where our message will go to create tickets
 
@@ -98,9 +99,10 @@ When one of the options is selected, the bot will send a confirmation message wh
 #### Close ticket function
 ![image](https://user-images.githubusercontent.com/75272665/174157206-4b69ef02-e0ac-4ab7-b69d-ae26139fd37c.png)
 
-### Ticket log
+### Ticket logs
 
 When the ticket has been closed, a message will be automatically sent to the ticket log channel with basic ticket information.
 
 ![image](https://user-images.githubusercontent.com/75272665/174157271-92372073-5bd3-4e75-b466-f5947194e43d.png)
 
+# Customizing the bot
