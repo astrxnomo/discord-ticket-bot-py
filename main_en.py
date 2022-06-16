@@ -212,4 +212,4 @@ async def on_select_option(interaction):
 
            
 
-bot.run('OTg3MDEyODMzNjU5MjI0MDc0.G9qZ6B.aaBsq_0cSsOYJZYR6pRo_kA37OhALMi8XM11b4')
+bot.run('')
