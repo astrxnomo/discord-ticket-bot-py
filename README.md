@@ -3,7 +3,7 @@ We suggest you be familiar with discord.py and python. This is a Ticket Bot guid
 
 # Get Started
 
-##Install
+## Install
 First, we need to install the library
 
 ```
