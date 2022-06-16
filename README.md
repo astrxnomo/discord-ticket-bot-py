@@ -46,7 +46,7 @@ embed_color = 0xfcd005
 > [Go to code]()
 
 
-We must copy the bot token from the Discord developer portal and paste it inside the quotation marks `' '`
+We must enable server members intent and copy the bot token from the Discord developer portal and paste it inside the quotation marks `' '`
 ```py
 bot.run(' ')
 ```
