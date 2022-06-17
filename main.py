@@ -28,6 +28,7 @@ async def on_ready():
     ))
     print('Ready to support ✅')
 
+#Ticket command
 @bot.command()
 @commands.has_permissions(administrator=True)
 async def ticket(ctx):
@@ -41,6 +42,8 @@ async def ticket(ctx):
 
     await ctx.send(
         embed = embed,
+
+        #Embed button
         components = [
             Button(
                 custom_id = 'Ticket',
@@ -56,8 +59,10 @@ async def on_button_click(interaction):
     canal = interaction.channel
     canal_logs = interaction.guild.get_channel(id_channel_ticket_logs)
 
+    #Select function
     if interaction.component.custom_id == "Ticket":
         await interaction.send(
+
             components = [
                 Select(
                     placeholder = "How can we help you?",
@@ -68,12 +73,13 @@ async def on_button_click(interaction):
                     ],
                     custom_id = "menu")])
 
+    #Call staff function
     elif interaction.component.custom_id == 'call_staff':
 
         embed_llamar_staff = discord.Embed(description=f"🔔 {interaction.author.mention} has called the staff.", color=embed_color)
         await canal.send(f'<@&{id_staff_role}>', embed=embed_llamar_staff, delete_after= 20)
 
-
+    #Close ticket function
     elif interaction.component.custom_id == 'close_ticket':
 
         embed_cerrar_ticket = discord.Embed(description=f"⚠️ Are you sure you want to close the ticket?", color=embed_color)
@@ -82,7 +88,7 @@ async def on_button_click(interaction):
                         Button(custom_id = 'close_yes', label = "Yes", style = ButtonStyle.green),
                         Button(custom_id = 'close_no', label = "No", style = ButtonStyle.red)]])
 
-
+    #Ticket logs function
     elif interaction.component.custom_id == 'close_yes':
 
         await canal.delete()
@@ -104,9 +110,13 @@ async def on_select_option(interaction):
         category = discord.utils.get(interaction.guild.categories, id = id_category)
         rol_staff = discord.utils.get(interaction.guild.roles, id = id_staff_role)
 
-
+        #Select option | Question
         if interaction.values[0] == 'question':
+
+            #Creating ticket channel | Question
             channel = await guild.create_text_channel(name=f'❔┃{interaction.author.name}-ticket', category=category)
+            
+            #Ticket channel permissions | Question
             await channel.set_permissions(interaction.guild.get_role(interaction.guild.id),
                             send_messages=False,
                             read_messages=False)
@@ -131,17 +141,27 @@ async def on_select_option(interaction):
 
             await interaction.send(f'> The {channel.mention} channel was created to solve your questions.', delete_after= 3)
 
+            #Inside the ticket | Question
+            #Embed inside the ticket | Question
             embed_question = discord.Embed(title=f'Question - ¡Hi {interaction.author.name}!', description='In this ticket we have an answer to your question.\n\nIf you cant get someone to help you, press the button `🔔 Call staff`..', color=embed_color)
             embed_question.set_thumbnail(url=interaction.author.avatar_url)
 
-            await channel.send(interaction.author.mention, embed=embed_question, components = [[
+
+            await channel.send(interaction.author.mention, embed=embed_question,
+            
+            #Embed buttons inside the ticket | Question
+             components = [[
                     Button(custom_id = 'close_ticket', label = "Close ticket", style = ButtonStyle.red, emoji ='🔐'),
                     Button(custom_id = 'call_staff', label = "Call staff", style = ButtonStyle.blue, emoji ='🔔')]])
 
 
-
+        #Select option | Help
         elif interaction.values[0] == 'help':
+
+            #Creating ticket channel | Help
             channel = await guild.create_text_channel(name=f'🔧┃{interaction.author.name}-ticket', category=category)
+            
+            #Ticket channel permissions | Help
             await channel.set_permissions(interaction.guild.get_role(interaction.guild.id),
                             send_messages=False,
                             read_messages=False)
@@ -166,17 +186,27 @@ async def on_select_option(interaction):
 
             await interaction.send(f'> The {channel.mention} channel was created to help you.', delete_after= 3)
 
+            #Inside the ticket | Help
+            #Embed inside the ticket | Help
             embed_question = discord.Embed(title=f'Help - ¡Hi {interaction.author.name}!', description='In this ticket we can help you with whatever you need.\n\nIf you cant get someone to help you, press the button `🔔 Call staff`.', color=embed_color)
             embed_question.set_thumbnail(url=interaction.author.avatar_url)
 
-            await channel.send(interaction.author.mention, embed=embed_question, components = [[
+
+            await channel.send(interaction.author.mention, embed=embed_question, 
+            
+            #Embed buttons inside the ticket | Help
+            components = [[
                     Button(custom_id = 'close_ticket', label = "Close ticket", style = ButtonStyle.red, emoji ='🔐'),
                     Button(custom_id = 'call_staff', label = "Call staff", style = ButtonStyle.blue, emoji ='🔔')]])
 
 
-
+        #Select option | Report
         elif interaction.values[0] == 'report':
+
+            #Creating ticket channel | Report
             channel = await guild.create_text_channel(name=f'🚫┃{interaction.author.name}-ticket', category=category)
+
+            #Ticket channel permissions | Report
             await channel.set_permissions(interaction.guild.get_role(interaction.guild.id),
                             send_messages=False,
                             read_messages=False)
@@ -201,13 +231,16 @@ async def on_select_option(interaction):
 
             await interaction.send(f'> The {channel.mention} channel was created to report to the user.', delete_after= 3)
 
+            #Inside the ticket | Report
+            #Embed inside the ticket | Report
             embed_question = discord.Embed(title=f'Report - ¡Hi {interaction.author.name}!', description='In this ticket we can help you with your report.\n\nIf you cant get someone to help you, press the button `🔔 Call staff`.', color=embed_color)
             embed_question.set_thumbnail(url=interaction.author.avatar_url)
 
-            await channel.send(interaction.author.mention, embed=embed_question, components = [[
+            await channel.send(interaction.author.mention, embed=embed_question, 
+            
+            #Embed buttons inside the ticket | Report
+            components = [[
                     Button(custom_id = 'close_ticket', label = "Close ticket", style = ButtonStyle.red, emoji ='🔐'),
                     Button(custom_id = 'call_staff', label = "Call staff", style = ButtonStyle.blue, emoji ='🔔')]])
-
-           
 
 bot.run('')
