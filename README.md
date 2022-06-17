@@ -78,7 +78,9 @@ In the ticket channel we are going to execute the command `tb!ticket` (remember 
 
 ## Testing the bot
 
-### Select function
+<details><summary>Select function</summary>
+<p>
+  
 ![image](https://user-images.githubusercontent.com/75272665/174156497-2f13d506-7ae2-4074-8e06-ac887ca46932.png)
 
 ![image](https://user-images.githubusercontent.com/75272665/174156675-39bb34fa-5bac-4543-8399-06cf07f56fdb.png)
@@ -88,21 +90,32 @@ When one of the options is selected, the bot will send a confirmation message wh
 ![image](https://user-images.githubusercontent.com/75272665/174156906-6c56e21c-878a-4f4a-affe-c9462fa01e52.png)
 
 ![image](https://user-images.githubusercontent.com/75272665/174156983-8f871413-d75f-417b-b4ba-6077db365d8c.png)
+  </p>
+</details>
 
-### Inside the ticket
-
+<details><summary>Inside the ticket</summary>
+<p>
+  
 ![image](https://user-images.githubusercontent.com/75272665/174157033-8ebf9975-04ea-4246-8f6e-7951b7b8d6b9.png)
 
 #### Call staff function
+  
 ![image](https://user-images.githubusercontent.com/75272665/174157118-7d67a67e-6283-49fd-9b4e-72106716090b.png)
 
 #### Close ticket function
+  
 ![image](https://user-images.githubusercontent.com/75272665/174157206-4b69ef02-e0ac-4ab7-b69d-ae26139fd37c.png)
+  </p>
+</details>
 
-### Ticket logs
+<details><summary>Ticket logs</summary>
+<p>
 
 When the ticket has been closed, a message will be automatically sent to the ticket log channel with basic ticket information.
-
+  
 ![image](https://user-images.githubusercontent.com/75272665/174157271-92372073-5bd3-4e75-b466-f5947194e43d.png)
+  
+  </p>
+</details>
 
 # Customizing the bot
