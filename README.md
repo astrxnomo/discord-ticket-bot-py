@@ -1,11 +1,12 @@
-![GitHub](https://img.shields.io/github/license/astrxnomo/discord-ticket-bot-py)
-[![GitHub contributors](https://img.shields.io/github/contributors/astrxnomo/discord-ticket-bot-py.svg)](https://GitHub.com/astrxnomo/discord-ticket-bot-py/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/astrxnomo/discord-ticket-bot-py.svg)](https://GitHub.com/astrxnomo/discord-ticket-bot-py/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/astrxnomo/discord-ticket-bot-py.svg)](https://GitHub.com/astrxnomo/discord-ticket-bot-py/pulls/)
+![GitHub](https://img.shields.io/github/license/astrxnomo/discord-ticket-bot-py?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/astrxnomo/discord-ticket-bot-py?color=gree&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/astrxnomo/discord-ticket-bot-py?style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/astrxnomo/discord-ticket-bot-py?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/astrxnomo/discord-ticket-bot-py?style=flat-square)
 
-[![GitHub watchers](https://img.shields.io/github/watchers/astrxnomo/discord-ticket-bot-py.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/astrxnomo/discord-ticket-bot-py/)
-[![GitHub forks](https://img.shields.io/github/forks/astrxnomo/discord-ticket-bot-py.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/astrxnomo/discord-ticket-bot-py/network/)
-[![GitHub stars](https://img.shields.io/github/stars/astrxnomo/discord-ticket-bot-py.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/astrxnomo/discord-ticket-bot-py/stargazers/)
+![GitHub watchers](https://img.shields.io/github/watchers/astrxnomo/discord-ticket-bot-py?color=purple&style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/astrxnomo/discord-ticket-bot-py?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/astrxnomo/discord-ticket-bot-py?color=yellow&style=flat-square)
 
 
 # Get Started
