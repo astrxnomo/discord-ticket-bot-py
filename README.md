@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/astrxnomo/discord-ticket-bot-py.svg)](https://github.com/astrxnomo/discord-ticket-bot-py/blob/master/LICENSE)
+![GitHub](https://img.shields.io/github/license/astrxnomo/discord-ticket-bot-py)
 [![GitHub contributors](https://img.shields.io/github/contributors/astrxnomo/discord-ticket-bot-py.svg)](https://GitHub.com/astrxnomo/discord-ticket-bot-py/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/astrxnomo/discord-ticket-bot-py.svg)](https://GitHub.com/astrxnomo/discord-ticket-bot-py/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/astrxnomo/discord-ticket-bot-py.svg)](https://GitHub.com/astrxnomo/discord-ticket-bot-py/pulls/)
@@ -10,4 +10,3 @@
 
 # Get Started
 We suggest you be familiar with discord.py and python. This is a Ticket Bot guide so it couldn't contain a lot of python explanations.
-
