@@ -24,7 +24,7 @@ We suggest you be familiar with discord.py and python. This is a Ticket Bot guid
 # Content
 
 ### [Home](https://github.com/astrxnomo/discord-ticket-bot-py/wiki)
-- [Objetives](https://github.com/astrxnomo/discord-ticket-bot-py/wiki#objetives)
+- [Content](https://github.com/astrxnomo/discord-ticket-bot-py/wiki#content)
 - [Acknowledgements](https://github.com/astrxnomo/discord-ticket-bot-py/wiki#acknowledgements)
 ### [Installations](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations)
 - [Installing discord.py](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#installing-discordpy)
