@@ -10,7 +10,16 @@
 
 
 # Get Started
+A discord ticket bot created with python, using discord components such as buttons and selectors.
+
 We suggest you be familiar with discord.py and python. This is a Ticket Bot guide so it couldn't contain a lot of python explanations.
+
+# At a Glance
+
+![image](https://user-images.githubusercontent.com/75272665/174901958-4f166dcc-6da2-46c2-abde-28584b9e04bf.png) |  ![image](https://user-images.githubusercontent.com/75272665/174902075-090d93e6-02b0-4f8e-8d39-4dabeff6b2bc.png) | ![image](https://user-images.githubusercontent.com/75272665/174902136-5b092a47-75f9-45c3-a63b-824f49e2cb83.png)
+:-------------------------:|:-------------------------:|:-------------------------:
+
+
 
 # Content
 
