@@ -23,10 +23,10 @@ We suggest you be familiar with discord.py and python. This is a Ticket Bot guid
 
 # Content
 
-## [Home](https://github.com/astrxnomo/discord-ticket-bot-py/wiki)
+### [Home](https://github.com/astrxnomo/discord-ticket-bot-py/wiki)
 - [Objetives](https://github.com/astrxnomo/discord-ticket-bot-py/wiki#objetives)
 - [Acknowledgements](https://github.com/astrxnomo/discord-ticket-bot-py/wiki#acknowledgements)
-##### [Installations](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations)
+### [Installations](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations)
 - [Installing discord.py](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#installing-discordpy)
 - [Installing discord-components](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#installing-discord-components)
 - [Installing the bot](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#installing-the-bot)
@@ -34,7 +34,7 @@ We suggest you be familiar with discord.py and python. This is a Ticket Bot guid
   - [Add a Bot Account](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#add-a-bot-account)
   - [Invite Your Bot](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#invite-your-bot)
   - [Get Bot Token](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#get-bot-token)
-#### [Setup the bot](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Setup-the-bot)
+### [Setup the bot](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Setup-the-bot)
   - [Change prefix](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Setup-the-bot#change-prefix)
   - [Setting parameters](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Setup-the-bot#setting-parameters)
 ### [Running the bot](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Running-the-bot)
