@@ -317,5 +317,4 @@ async def ayuda(ctx):
                 url = 'https://discord.com/channels/745672936131657768/882251364288319509/882252645417488425',
                 emoji ='⭐')])
            
-           
 bot.run('')
