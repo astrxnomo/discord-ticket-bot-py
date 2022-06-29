@@ -4,7 +4,6 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/astrxnomo/discord-ticket-bot-py?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/astrxnomo/discord-ticket-bot-py?style=flat-square)
 
-![GitHub watchers](https://img.shields.io/github/watchers/astrxnomo/discord-ticket-bot-py?color=purple&style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/astrxnomo/discord-ticket-bot-py?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/astrxnomo/discord-ticket-bot-py?color=yellow&style=flat-square)
 
