@@ -25,9 +25,9 @@ We suggest you be familiar with discord.py and python. This is a Ticket Bot guid
 ### [Home](https://github.com/astrxnomo/discord-ticket-bot-py/wiki)
 - [Content](https://github.com/astrxnomo/discord-ticket-bot-py/wiki#content)
 - [Acknowledgements](https://github.com/astrxnomo/discord-ticket-bot-py/wiki#acknowledgements)
-### [1. Installations] run command in terminal after cloning  pip install -r req.txt
-- 1.1. Installing discord.py  run command in terminal after cloning  pip install -r req.txt
-- 1.2. Installing discord-components  run command in terminal after cloning  pip install -r req.txt
+### 1. Installations
+- 1.1. Installing discord.py   run this command in terminal after cloning `pip install -r req.txt`
+- 1.2. Installing discord-components  run this command in terminal after cloning `pip install -r req.txt`
 - [1.3. Installing the bot](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#installing-the-bot)
   - [1.3.1. Create an Application](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#create-an-application)
   - [1.3.2. Add a Bot Account](https://github.com/astrxnomo/discord-ticket-bot-py/wiki/Installations#add-a-bot-account)
